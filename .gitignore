@@ -1,0 +1,6 @@
+.DS_store
+
+target/
+*.class
+*.jar
+*.war
