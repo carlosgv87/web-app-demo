@@ -6,7 +6,7 @@
 <title>Spring MVC Tutorial Series by Crunchify.com</title>
 <style type="text/css">
 body {
-	background-image: url('http://crunchify.com/bg.png');
+	background-image: url('https://www.bbva.com/wp-content/uploads/en/2017/07/results-vela-grupo-bbva-2t17-1920x0-c-f.jpg');
 }
 </style>
 </head>
@@ -14,11 +14,12 @@ body {
 	<br>
 	<div style="text-align:center">
 		<h2>
-			HOLLLLLLAAAAA.<br> <br>
+			¡¡¡ HOLA SANDRA !!!!
+			<br>
+			<br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click here to See Welcome Message... </a>(to
-			check Spring MVC Controller... @RequestMapping("/welcome"))
+			<a href="welcome.html">Click here to See Welcome Message... </a>... @RequestMapping("/welcome"))
 		</h3>
 	</div>
 </body>
