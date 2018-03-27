@@ -1,6 +1,7 @@
 .DS_store
 
 **/.settings/
+**/.vscode/
 target/
 *.class
 *.classpath
