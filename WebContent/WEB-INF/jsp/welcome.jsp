@@ -14,7 +14,8 @@ body {
 	<br>
 	<br>
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
-		Continuous Integration Demo<br>
+		Continuous Integration Demo
+		<br>
 	</div>
 </body>
 </html>
