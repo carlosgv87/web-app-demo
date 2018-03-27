@@ -13,8 +13,13 @@ body {
 <body>${message}
 	<br>
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
-		Continuous Integration Demo
+		Continuous Integration Sample
 		<br>
+	</div>
+	<div>
+		<h3>
+			Click <a href="index.jsp">aquí</a> para ir a la página principal
+		</h3>
 	</div>
 </body>
 </html>

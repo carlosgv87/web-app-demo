@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.pfc.example</groupId>
 	<artifactId>AppExample</artifactId>
-	<version>0.0.1</version>
 	<packaging>war</packaging>
 
 	<dependencies>
@@ -55,80 +54,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<profiles>
-		<profile>
-			<id>ic</id>
-			<distributionManagement>
-				<snapshotRepository>
-					<id>snapshots</id>
-					<name>Snapshots</name>
-					<url>http://192.168.99.100:8081/content/repositories/snapshots/</url>
-				</snapshotRepository>
-			</distributionManagement>
-		</profile>
-		<profile>
-			<id>pre</id>
-			<distributionManagement>
-				<repository>
-					<id>candidate</id>
-					<name>Candidates</name>
-					<url>http://192.168.99.100:8081/content/repositories/candidate/</url>
-				</repository>
-
-				<snapshotRepository>
-					<id>snapshots</id>
-					<name>Snapshots</name>
-					<url>http://192.168.99.100:8081/content/repositories/snapshots/</url>
-				</snapshotRepository>
-			</distributionManagement>
-			
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.wildfly.plugins</groupId>
-						<artifactId>wildfly-maven-plugin</artifactId>
-						<version>1.0.2.Final</version>
-						<configuration>
-							<hostname>192.168.99.105</hostname>
-							<port>6662</port>
-							<username>admin</username>
-							<password>password</password>
-							<filename>${project.artifactId}-${project.version}.war</filename>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
-			<id>pro</id>
-			<distributionManagement>
-				<repository>
-					<id>releases</id>
-					<name>Releases</name>
-					<url>http://192.168.99.100:8081/content/repositories/releases/</url>
-				</repository>
-				<snapshotRepository>
-					<id>snapshots</id>
-					<name>Snapshots</name>
-					<url>http://192.168.99.100:8081/content/repositories/snapshots/</url>
-				</snapshotRepository>
-			</distributionManagement>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.wildfly.plugins</groupId>
-						<artifactId>wildfly-maven-plugin</artifactId>
-						<version>1.0.2.Final</version>
-						<configuration>
-							<hostname>192.168.99.103</hostname>
-							<port>9992</port>
-							<username>admin</username>
-							<password>password</password>
-							<filename>${project.artifactId}-${project.version}.war</filename>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>	
-	</profiles>
 </project>

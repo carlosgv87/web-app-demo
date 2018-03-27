@@ -18,7 +18,7 @@ body {
 			<br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click here to see welcome message... </a>
+			Click <a href="welcome.html">aquí</a> para ir a la siguiente página
 		</h3>
 	</div>
 </body>
