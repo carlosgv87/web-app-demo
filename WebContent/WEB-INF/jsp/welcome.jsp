@@ -12,7 +12,6 @@ body {
 </head>
 <body>${message}
 	<br>
-	<!-- <div><img src="../../../resources/img/artifactory.gif"></div> -->
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
 		<h3>
 			Click <a href="index.jsp">aquí</a> para ir a la página principal
