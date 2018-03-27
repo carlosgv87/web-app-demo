@@ -6,13 +6,13 @@
 <title>INTEGRACIÓN CONTINUA - SAMPLE</title>
 <style type="text/css">
 body {
-	background-image: url('https://www.bbva.com/wp-content/uploads/en/2017/07/results-vela-grupo-bbva-2t17-1920x0-c-f.jpg');
+	background-image: url('http://www.arikbenari.com/image/39003/700x0/p19sbuenbtae11ofoejq1ekm11nn3.gif');
 }
 </style>
 </head>
 <body>${message}
 	<br>
-	<div><img src="../../../resources/img/artifactory.gif"></div>
+	<!-- <div><img src="../../../resources/img/artifactory.gif"></div> -->
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
 		<h3>
 			Click <a href="index.jsp">aquí</a> para ir a la página principal
