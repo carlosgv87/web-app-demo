@@ -8,8 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloWord {
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
-		//Prueba para el commit
-		String message = "<br><div style='text-align:center;'><h3>Hola Sandra</h3></div><br>";
+		String message = "<br><div style='text-align:center;'><h3>HOLA SANDRA</h3></div><br>";
 		return new ModelAndView("welcome", "message", message );
 	}
 }

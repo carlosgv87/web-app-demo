@@ -16,10 +16,9 @@ body {
 		<h2>
 			¡¡¡ HOLA SANDRA !!!!
 			<br>
-			<br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click here to See Welcome Message... </a>... @RequestMapping("/welcome"))
+			<a href="welcome.html">Click here to see welcome message... </a>
 		</h3>
 	</div>
 </body>
