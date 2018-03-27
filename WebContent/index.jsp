@@ -16,7 +16,6 @@ body {
 		<h2>
 			¡¡¡ HOLA SANDRA !!!!
 			<br>
-			ESTO ES UNA PRUEBA
 		</h2>
 		<h3>
 			Click <a href="welcome.html">aquí</a> para ir a la siguiente página
