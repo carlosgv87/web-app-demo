@@ -1,6 +1,9 @@
 .DS_store
 
+**/.settings/
 target/
 *.class
+*.classpath
 *.jar
+*.project
 *.war

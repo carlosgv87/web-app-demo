@@ -9,9 +9,7 @@ public class HelloWord {
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
 		//Prueba para el commit
-		String message = "<br><div style='text-align:center;'>"
-				+ "<h3>********** Hello all the genius tu!!, Spring MVC Tutorial</h3>This message is coming from CrunchifyHelloWorld.java **********</div><br><br>";
+		String message = "<br><div style='text-align:center;'><h3>Hola Sandra</h3></div><br>";
 		return new ModelAndView("welcome", "message", message );
-		
 	}
 }
