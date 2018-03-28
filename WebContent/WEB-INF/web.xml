@@ -13,7 +13,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>appexample</servlet-name>
+        <servlet-name>ciexample</servlet-name>
         <url-pattern>/welcome.jsp</url-pattern>
         <url-pattern>/welcome.html</url-pattern>
         <url-pattern>/users.jsp</url-pattern>
