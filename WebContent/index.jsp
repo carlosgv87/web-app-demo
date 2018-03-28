@@ -14,11 +14,15 @@ body {
 	<br>
 	<div style="text-align:center">
 		<h2>
-			¡¡¡ HOLA CARLOS !!!!
-			<br>
+			¡¡¡ HOLA USUARI@ !!!!
 		</h2>
+		<br>
 		<h3>
-			Click <a href="welcome.html">aquí</a> para ir a la siguiente página
+			Click <a href="welcome.html">aquí</a> para ir a la Página de Bienvenida
+		</h3>
+		<br>
+		<h3>
+			Click <a href="users.html">aquí</a> para ir a la Página de Usuarios
 		</h3>
 	</div>
 </body>
