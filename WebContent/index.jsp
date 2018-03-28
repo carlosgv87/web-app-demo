@@ -20,10 +20,10 @@ body {
 		<h3>
 			Click <a href="welcome.html">aquí</a> para ir a la Página de Bienvenida
 		</h3>
-		<!-- <br>
+		<br>
 		<h3>
 			Click <a href="users.html">aquí</a> para ir a la Página de Usuarios
-		</h3> -->
+		</h3>
 	</div>
 </body>
 </html>
